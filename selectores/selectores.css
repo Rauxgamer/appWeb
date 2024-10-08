@@ -1,0 +1,32 @@
+#main{
+    background-color: gray;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.especial{
+    color:blue;
+}
+h2,h3{
+    border:2px solid yellow;
+}
+ul>li{
+    color:red;
+}
+ul>li>ul>li{
+    color:green;
+}
+.antes~h3{
+    background-color: blue;
+}
+.antes{
+    background-color: coral;
+}
+p img{
+    border:5px solid black;
+}
+
+img+span>img{
+    border: 5px solid blue;
+}
