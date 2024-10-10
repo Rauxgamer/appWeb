@@ -1,0 +1,118 @@
+body{
+    margin:0;
+}
+/*Comun 1 Y 2*/
+/*.flex-item{
+    background-color: rgb(66, 170, 89);
+    border:2px solid black;
+    border-radius: 5px;
+    width:100px;
+    height:25px;
+    padding: 10px;
+    text-align: center;
+}*/
+
+/*Ejecicio1*/
+/*.contenedor_flex{
+    background-color: rgb(165, 165, 219);
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0px 20px;
+    align-items: end;
+
+}*/
+/*Ejecicio2*/
+/*.contenedor_flex{
+    background-color: rgb(165, 165, 219);
+    padding: 5px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+
+}*/
+/*Ejecicio3*/
+/*.contenedor_flex{
+    background-color: rgb(165, 165, 219);
+    padding: 5px;
+    gap: 5px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: stretch;
+
+
+}
+.flex-item{
+    background-color: rgb(66, 170, 89);
+    border:2px solid black;
+    border-radius: 5px;
+    height:25px;
+    padding: 10px;
+    text-align: center;
+}*/
+/*Ejecicio4*/
+/*.contenedor_flex{
+    background-color: rgb(165, 165, 219);
+    padding: 5px;
+    height: 400px;
+    gap: 0px 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.flex-item{
+    background-color: rgb(66, 170, 89);
+    border:2px solid black;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}*/
+/*Ejecicio5*/
+/*.contenedor_flex{
+    background-color: rgb(165, 165, 219);
+    padding: 5px;
+    height: 400px;
+    gap: 0px 5px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    
+}
+.flex-item{
+    background-color: rgb(66, 170, 89);
+    border:2px solid black;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    flex-basis: 1;
+}
+.flex-item:hover{
+    background-color: aqua;
+    transition: 2s;
+    flex-grow: 0.15;
+}*/
+/*Ejecicio6*/
+.contenedor_flex{
+    background-color: rgb(165, 165, 219);
+    padding: 5px;
+    height: 200px;
+    width: 700px;
+    gap: 0px 5px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    
+}
+.flex-item{
+    background-color: rgb(66, 170, 89);
+    border:2px solid black;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
