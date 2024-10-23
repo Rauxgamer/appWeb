@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@300;400;500;700&display=swap');
+:root{
+    --color-fondo-prin:lightgrey;
+    --color-fondo-pie:#555;
+    --fuente:"Lato";
+}
+*{
+    font-family: var(--fuente);
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: var(--color-fondo-prin);
+}
+
+.principal{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:baseline;
+    align-items: center;
+    padding: 1%;
+}
+.pie-pagina{
+    color:white;
+    background-color: var(--color-fondo-pie);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    padding: 1%;
+}
+.pie-pagina a{
+    color:white;
+    text-decoration:none;
+}
+.pie-pagina a:hover{
+    text-decoration:underline;
+}
+.divisores-pie{
+    display: flex;
+    flex-flow: column wrap;
+
+}
