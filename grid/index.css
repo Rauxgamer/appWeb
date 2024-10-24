@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.contenido{
+    display: grid;
+    /*Ejercicio 1,2,3,6,7//grid-template-columns:repeat(3, 1fr); */
+    /*Ejercicio 3 //grid-template-rows: repeat(5,1fr);*/
+    /****Ejercicio4***grid-template-areas: 
+    "area1 area1 area1"
+    "area2 area3 area4"
+    "area2 area5 area6";*/
+    /***Ejercicio5***grid-template-areas: 
+    "area1 area1 area2 area2"
+    "area3 area4 area4 area4"
+    "area5 area5 area5 area6";*/
+    /*Ejercicio 8*/
+    grid-template-rows:repeat(3, 1fr);
+    grid-auto-flow: column;
+    border:2px solid #f76707;
+    width: 100vw;
+    height: 100vh;
+}
+.cajas{
+    background-color: #ffd8a8;
+    border:2px solid #ffa94d;
+    border-radius: 5px;
+    color:#d9480f;
+    text-align: center;
+    align-content: center;
+}
+
+
+/*Ejercicio 2*/
+.cajas2{
+    grid-column:1/4;
+}
+/*Ejercicio 3, se necesita el 2*/
+.cajas3{
+    grid-row:2/6;
+}
+/*Ejercicio 4,5*/
+.cajas4-1{
+    grid-area: area1;
+}
+.cajas4-2{
+    grid-area: area2;
+}
+.cajas4-3{
+    grid-area: area3;
+}
+.cajas4-4{
+    grid-area: area4;
+}
+.cajas4-5{
+    grid-area: area5;
+}
+.cajas4-6{
+    grid-area: area6;
+}
+/*Ejercicio 6*/
+.cajas6-1{
+    order:1;
+}
+/*Ejercicio 7*/
+.cajas7-1{
+    grid-column: 2/4;
+}
+.cajas7-3{
+    grid-column: 2/4;
+}
+.cajas7-4{
+    grid-column: 1/4;
+}
+
