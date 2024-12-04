@@ -1,0 +1,84 @@
+
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-flow: column wrap;
+    gap:10px;
+    width: 300px;
+    padding:16px;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin:auto;
+}
+div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+input,textarea{
+    width:180px;
+    background-color: #f6f6f6;
+    border:none;
+    outline: none;
+    border-radius: 2px;
+}
+textarea{
+    width:100%;
+    resize:none;
+    height:100px;
+}
+button{
+    width:100%; 
+    height: 30px;
+    background-color: #000;
+    color:#fff;
+    border-radius: 5px;
+    border:none;
+}
+label{
+    width:72px;
+}
+#fecha{
+    height:fit-content;
+}
+button:hover{
+    cursor: pointer;
+}
+label:hover{
+    background-color: white;
+    width:fit-content;
+}  
+
+#tel:invalid{
+    border:2px solid red;
+}
+#tel:valid{
+    border:2px solid green;
+}
+#tel:placeholder-shown{
+    border:1px solid black;
+}
+#edad:out-of-range{
+    border: 2px solid red;
+}
+#edad:in-range{
+    border:2px solid green;
+}
+#edad:placeholder-shown{
+    border:1px solid black;
+}
+#nombre:valid{
+    border:2px solid green;
+}
+#nombre:invalid{
+    border:2px solid red;
+}
+#nombre:placeholder-shown{
+    border:1px solid black;
+}
+
+

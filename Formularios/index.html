@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label>Nombre: </label><input type="text" name="nombre" id="nombre" placeholder="Introduce el nombre" required pattern="^[a-zA-Z]+$">
+        </div>
+        <div>
+            <label>Password: </label><input type="password" name="passwd" id="passwd" placeholder="Introduce la contrasena" required ></label>
+        </div>
+        <div>
+            <label>Email </label><input type="mail" name="mail" id="mail" placeholder="Introduce el mail" required></label>
+        </div>
+        <div>
+            <label>Telefono: </label><input type="tel" name="tel" id="tel" placeholder="Introduce el telefono" required min="600000000" max="999999999" pattern="(6|9)[0-9]{8}"></label>
+        </div>
+
+        <div>
+            <label>URL: </label><input type="url" name="url" id="url" placeholder="Introduce la URL" required></label>
+        </div>
+        <div>
+            <label>Edad: </label><input type="number" name="edad" id="edad" min="18" max="100" placeholder="Introduce tu edad" required step="10" pattern="^[0-9]{2,3}$"></label>
+        </div>
+        <div>
+            <label>Fecha de nacimiento: </label><input type="date" name="fecha" id="fecha" required></label>
+        </div>
+        <label>Mensaje: </label>
+        <textarea name="mensaje" id="mensaje" maxlength="300" placeholder="Escribe aqui un mensaje, tienes un máximo de 300 caractéres" required></textarea>
+        <button type="submit" name="enviar" id="enviar">Enviar</button>
+    </form>
+</body>
+</html>
