@@ -1,43 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+	<title>Feliz A&ntilde;o Nuevo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:600,0" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <audio src="" autoplay></audio>
-    <div class="principal">
-        <div class="anonuevo" style="--j:0;">
-            <div style="--i:0;"><h1>2</h1></div>
-            <div style="--i:1;"><h1>3</h1></div>
-            <div style="--i:2;"><h1>4</h1></div>
-            <div style="--i:3;"><h1>5</h1></div>
-        </div>
-        <div class="anonuevo" style="--j:1;">
-            <div style="--i:0;"><h1>0</h1></div>
-            <div style="--i:1;"><h1>1</h1></div>
-            <div style="--i:2;"><h1>2</h1></div>
-            <div style="--i:3;"><h1>3</h1></div>
-        </div>
-        <div class="anonuevo" style="--j:2;">
-            <div style="--i:0;"><h1>2</h1></div>
-            <div style="--i:1;"><h1>3</h1></div>
-            <div style="--i:2;"><h1>4</h1></div>
-            <div style="--i:3;"><h1>5</h1></div>
-        </div>
-        <div class="anonuevo" style="--j:3;">
-            <div style="--i:0;"><h1>3</h1></div>
-            <div style="--i:1;"><h1>4</h1></div>
-            <div style="--i:2;"><h1>3</h1></div>
-            <div style="--i:3;"><h1>4</h1></div>
-                <h1>5</h1>
-            </div>
-        </div>
-    </div>
+	<div class="backg">
+		<div  class="textos">
+			<h2>Feliz A&ntilde;o Nuevo</h2>
+		</div>
+		<div class="contentglass">
+			<div class="glass1">
+				<div class="b1"></div>
+				<div class="b2"></div>
+				<div class="champagne"></div>
+			</div>
+			<div class="glass2">
+				<div class="b1"></div>
+				<div class="b2"></div>
+				<div class="champagne"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="text" style="--j:0;">
+				<span style="--i:0;">2</span>
+				<span style="--i:1;">3</span>
+				<span style="--i:2;">4</span>
+				<span style="--i:3;">5</span>
+			</div>
+			<div class="text" style="--j:1;">
+				<span style="--i:0;">0</span>
+				<span style="--i:1;">1</span>
+				<span style="--i:2;">2</span>
+				<span style="--i:3;">3</span>
+			</div>
+			<div class="text" style="--j:2;">
+				<span style="--i:0;">2</span>
+				<span style="--i:1;">3</span>
+				<span style="--i:2;">4</span>
+				<span style="--i:3;">5</span>
+			</div>
+			<div class="text" style="--j:3;">
+				<span style="--i:0;">4</span>
+				<span style="--i:1;">5</span>
+				<span style="--i:2;">3</span>
+				<span style="--i:3;">4</span>
+			</div>
+		</div>	
+	</div>
+	<script>
+		let h2 = document.querySelector('h2');
+		let container = document.querySelector('.container');
+		h2.onclick = function(){
+			container.classList.toggle('newYear');
+			this.classList.toggle('active')
+		}
+	</script>
 </body>
 
 </html>
