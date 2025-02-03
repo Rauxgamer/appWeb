@@ -93,47 +93,71 @@
             </button>
 
         </div>
+        
+        
+        
     </div>
     <div class="cursos">
-        <div class="container-fluid d-flex justify-content-around p-3">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Desarrollo Web Frontend</h5>
-                    <p class="badge bg-primary">699€</p>
-                    <p class="card-text">Aprende HTML5, CSS y JavaScript</p>
-
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary w-100">Mas informacion</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Desarrollo Backend</h5>
-                    <p class="badge bg-primary">799€</p>
-                    <p class="card-text">Aprende PHP, Python y bases de datos</p>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary w-100">Mas informacion</a>
+        <div class="cartas g-4 container d-flex justify-content-center my-4">
+            <div class="col">
+                <div class="card d-flex flex-column" style="width: 18rem; min-height: 450px;">
+                    <img src="https://cdn.pixabay.com/photo/2024/05/21/19/58/code-8779047_1280.jpg" class="card-img-top" alt="..." style="height:150px;">
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Desarrollo Web Frontend</h5>
+                        <span class="badge bg-primary">799€</span>
+                        <p class="card-text fs-6">Aprende HTML5, CSS3 y JavaScript</p>
+                    </div>
+                    <div class="card-footer">
+                        <small><a href="#" class="btn btn-primary w-100">Más información</a></small>
+                    </div>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Full Stack Developer</h5>
-                    <p class="badge bg-primary">1299€</p>
-                    <p class="card-text">Domina el desarrollo web completo</p>
+            <div class="col">
+                <div class="card d-flex flex-column" style="width: 18rem; min-height: 450px;">
+                    <img src="https://cdn.pixabay.com/photo/2024/05/21/19/57/computer-8779039_1280.jpg" class="card-img-top" alt="..." style="height:150px;">
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Desarrollo Backend</h5>
+                        <span class="badge bg-primary">899€</span>
+                        <p class="card-text fs-6">Aprende PHP, Python y bases de datos.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small><a href="#" class="btn btn-primary w-100">Más información</a></small>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary w-100">Mas informacion</a>
+            </div>
+            <div class="col">
+                <div class="card d-flex flex-column" style="width: 18rem; min-height: 450px;">
+                    <img src="https://cdn.pixabay.com/photo/2023/09/06/18/10/ai-generated-8237711_1280.jpg" class="card-img-top" alt="..." style="height:150px;">
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Full Stack Developer</h5>
+                        <span class="badge bg-primary">1299€</span>
+                        <p class="card-text fs-6">Domina el desarrollo web completo</p>
+                    </div>
+                    <div class="card-footer">
+                        <small><a href="#" class="btn btn-primary w-100">Más información</a></small>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="formulario">
-
+        <div class="formulario d-flex justify-content-center form-group m-4">
+            <form action="">
+                <p>Nombre: <input type="text" class="form-control" id="formGroupExampleInput" pattern="[A-Za-z]{1,20}"
+                        title="Máximo 20 letras" required></p>
+                <p>Email: <input type="text" class="form-control" id="formGroupExampleInput" pattern=".+@.+"
+                        title="Debe contener @" require></p>
+                <p>Curso de interŕes <select class="form-control" id="exampleFormControlSelect1">
+                        <option value="">Selecciona un curso</option>
+                        <option value="">Desarrollo Frontend</option>
+                        <option value="">Desarrollo Backend</option>
+                        <option value="">Full Stack Developer</option>
+                    </select></p>
+                    <div class="d-flex justify-content-center ">
+                <button type="submit " class="btn btn-primary">Enviar</button>
+            </div>
+            </form>
+        </div>
     </div>
 </body>
 
